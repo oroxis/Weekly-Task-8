@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Persons from './components/PersonList';
 
 function App() {
+ 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>MY WEEK 8 TASK</h1>
       </header>
+
+    <div class="d-none d-sm-block">
+ <Persons/> 
+    </div>
+    <footer style= {{backgroundColor: 'blueviolet', textAlign: 'center'}}>
+    <h1>THANK YOU</h1>
+    </footer>
     </div>
   );
 }
